@@ -1,31 +1,96 @@
-.navbar {
-background-color: #92b632;
+body {
+  background-image: url("img/Fondo Caritas 2-03.png"); /* corregido */
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'font-family: Londrina', sans-serif;
+  font-weight: bold;
 }
+
+.navbar {
+  background-color: #92b632;
+  font-family: 'font-family: Londrina', sans-serif;
+  font-weight: bold;
+}
+
 .hero {
   background-image: linear-gradient(to right, #fad1faE1, #F5F5F5);
+  
 }
 
 .card {
   transition: transform 0.3s, box-shadow 0.3s;
   border: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: 'font-family: Londrina', sans-serif;
+  font-weight: bold;
 }
 
 .card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 20px DOB5D3(0, 0, 0, 0.15);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 .nav-link {
   transition: color 0.3s;
 }
-table{
-align-items: center;
-  text-align: center;
+
+.nav-link:hover {
+  color: #9ac4f8 !important;
 }
-body {
-  background-image: url('img/Fondo\ Caritas\ 2-03.png');
-  background-size: cover;
-}
+
 .footer {
   background-color: silver;
+  padding: 20px;
+  text-align: center;
+  font-family: 'font-family: Londrina', sans-serif;
+  font-weight: bold;
+}
+
+img, video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .navbar, .footer {
+    text-align: center;
+    padding: 15px;
+    font-family: 'font-family: Londrina', sans-serif;
+  font-weight: bold;
+  }
+
+  .card {
+    margin: 10px auto;
+    width: 90%;
+    font-family: 'font-family: Londrina', sans-serif;
+  font-weight: bold;
+  }
+
+  table {
+    width: 100%;
+    display: block;
+    overflow-x: auto;
+    font-family: 'font-family: Londrina', sans-serif;
+  font-weight: bold;
+  }
+
+  tr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'font-family: Londrina', sans-serif;
+  font-weight: bold;
+  }
+
+  td {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-family: 'font-family: Londrina', sans-serif;
+  font-weight: bold;
+  }
 }

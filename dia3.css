@@ -1,5 +1,7 @@
 .navbar {
 background-color: #92b632;
+font-family: 'font-family: Londrina', sans-serif;
+  font-weight: bold;
 }
 .hero {
   background-image: linear-gradient(to right, #fad1faE1, #F5F5F5);
@@ -8,6 +10,8 @@ background-color: #92b632;
 .card {
   transition: transform 0.3s, box-shadow 0.3s;
   border: none;
+  font-family: 'font-family: Londrina', sans-serif;
+  font-weight: bold;
 }
 
 .card:hover {
@@ -21,6 +25,8 @@ background-color: #92b632;
 body {
   background-image: url('img/Fondo\ Caritas\ 2-03.png');
   background-size: cover;
+  font-family: 'font-family: Londrina', sans-serif;
+  font-weight: bold;
 }
 img {
   max-width: 100%;
@@ -34,4 +40,25 @@ img:hover {
 }
 .footer {
   background-color: silver;
+  font-family: 'font-family: Londrina', sans-serif;
+  font-weight: bold;
+}
+@media (max-width: 768px) {
+  .navbar, .footer {
+    text-align: center;
+    padding: 15px;
+    font-family: 'font-family: Londrina', sans-serif;
+  font-weight: bold;
+  }
+
+  .card {
+    margin: 10px auto;
+    width: 90%;
+    font-family: 'font-family: Londrina', sans-serif;
+  font-weight: bold;
+  }
+
+  img {
+    margin: 10px auto;
+  }
 }
